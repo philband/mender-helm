@@ -77,6 +77,8 @@ api_gateway:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 deployments:
@@ -115,6 +117,8 @@ deployments:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 device_auth:
@@ -163,6 +167,8 @@ device_auth:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 gui:
@@ -197,6 +203,8 @@ gui:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 inventory:
@@ -234,6 +242,8 @@ inventory:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 tenantadm:
@@ -274,6 +284,8 @@ tenantadm:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 useradm:
@@ -322,6 +334,8 @@ useradm:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 workflows:
@@ -357,6 +371,8 @@ workflows:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 create_artifact_worker:
@@ -387,6 +403,8 @@ create_artifact_worker:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 auditlogs:
@@ -422,6 +440,8 @@ auditlogs:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 iot_manager:
@@ -457,6 +477,8 @@ iot_manager:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 deviceconnect:
@@ -492,6 +514,8 @@ deviceconnect:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 deviceconfig:
@@ -527,6 +551,8 @@ deviceconfig:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 devicemonitor:
@@ -562,6 +588,8 @@ devicemonitor:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 65534
 
 redis:
@@ -594,4 +622,6 @@ redis:
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
+    capabilities:
+      drop: ['ALL']
     runAsUser: 999
