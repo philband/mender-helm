@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  mender:
+  - apiVersion: v1
+    appVersion: 3.4.0
+    created: "2023-02-12T06:13:26.14865+01:00"
+    description: Mender is a robust and secure way to update all your software and
+      deploy your IoT devices at scale with support for customization
+    digest: dec8fa420e233a3ad957bbb0a336647bb9d6ace3384376aa01b46c7256ede2de
+    home: https://mender.io
+    icon: https://github.com/mendersoftware/mender/raw/master/mender_logo.png
+    keywords:
+    - mender
+    - iot
+    - ota
+    maintainers:
+    - email: contact@northern.tech
+      name: Northern.tech AS
+      url: https://northern.tech
+    name: mender
+    sources:
+    - https://github.com/philband/mender-helm
+    urls:
+    - https://philband.github.io/mender-helm/mender-3.4.1-beta.1.tgz
+    version: 3.4.1-beta.1
+generated: "2023-02-12T06:13:26.144332+01:00"
