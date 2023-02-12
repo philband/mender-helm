@@ -47,8 +47,8 @@ api_gateway:
       memory: 512M
   affinity: {}
   nodeSelector: {}
-  httpPort: 80
-  httpsPort: 443
+  httpPort: 9080
+  httpsPort: 9443
   service:
     name: mender-api-gateway
     annotations: {}
@@ -194,6 +194,7 @@ gui:
     annotations: {}
     type: ClusterIP
     port: 80
+  httpPort: 80
   podSecurityContext:
     enabled: false
     runAsNonRoot: true
