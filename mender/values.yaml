@@ -72,13 +72,9 @@ api_gateway:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 deployments:
@@ -112,13 +108,9 @@ deployments:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 device_auth:
@@ -162,13 +154,9 @@ device_auth:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 gui:
@@ -199,13 +187,9 @@ gui:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 inventory:
@@ -238,13 +222,9 @@ inventory:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 tenantadm:
@@ -280,13 +260,9 @@ tenantadm:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 useradm:
@@ -330,13 +306,9 @@ useradm:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 workflows:
@@ -367,13 +339,9 @@ workflows:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 create_artifact_worker:
@@ -399,13 +367,9 @@ create_artifact_worker:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 auditlogs:
@@ -436,13 +400,9 @@ auditlogs:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 iot_manager:
@@ -473,13 +433,9 @@ iot_manager:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 deviceconnect:
@@ -510,13 +466,9 @@ deviceconnect:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 deviceconfig:
@@ -547,13 +499,9 @@ deviceconfig:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 devicemonitor:
@@ -584,13 +532,9 @@ devicemonitor:
     enabled: false
     runAsNonRoot: true
     runAsUser: 65534
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 65534
 
 redis:
@@ -618,11 +562,7 @@ redis:
     enabled: false
     runAsNonRoot: true
     runAsUser: 999
-    seccompProfile:
-      type: RuntimeDefault
   containerSecurityContext:
     enabled: false
     allowPrivilegeEscalation: false
-    capabilities:
-      drop: ['ALL']
     runAsUser: 999
